@@ -16,8 +16,3 @@ insert into persons (name, surname, age, phone_number, city_of_living) values ('
 insert into persons (name, surname, age, phone_number, city_of_living) values ('Буланцев', 'Иван', 34, '456', 'ROSTOV');
 insert into persons (name, surname, age, phone_number, city_of_living) values ('Иванов', 'Булат', 29, '567', 'MOSCOW');
 insert into persons (name, surname, age, phone_number, city_of_living) values ('Иванов', 'Иван', 30, '678', 'SAMARA');
-
-
-select * from persons where city_of_living = 'MOSCOW';
-
-select * from persons where age > 27 order by age desc;
